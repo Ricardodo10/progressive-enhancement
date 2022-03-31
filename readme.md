@@ -16,3 +16,4 @@ https://github.com/Ricardodo10
 |Tahm  Kench|
 
 Big Drip
+Singed est vraiment trop beau uwu
