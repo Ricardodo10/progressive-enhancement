@@ -20,7 +20,7 @@ body{
     margin: auto;  
     background: -webkit-linear-gradient(-83deg, rgb(237, 22, 135), rgb(20, 90, 80));
     background: linear-gradient(-83deg, rgb(237, 22, 135), rgb(20, 90, 80));
-    background-image: url(./singed.webp);
+    background-image: url(./pain.jpeg);
     background-position: bottom right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,4 +36,20 @@ blockquote{
     padding: 30px;
     padding-top: 80px;
     padding-bottom: 80px;
+    font-style: italic;
+}
+.chinese-farmer{ font-style: italic;
+
+}
+.villager{
+border-left-style: dashed;
+border-color: black;
+}
+.farmer{
+    border-left-style: dashed;
+    border-color: brown;
+
+}
+header > h1 {
+    background-color: yellow;
 }
