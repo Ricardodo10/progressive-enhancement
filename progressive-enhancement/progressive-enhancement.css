@@ -1,0 +1,39 @@
+p{
+    font-family: serif;
+    font-size: 18px;
+    color: darkgreen;
+    word-spacing: 5px;
+
+}
+a:hover{
+    color: red;
+    
+}
+a:visited{
+    color: chartreuse;
+}
+a{
+    font-size: larger;
+}
+body{
+    max-width: 90%;
+    margin: auto;  
+    background: -webkit-linear-gradient(-83deg, rgb(237, 22, 135), rgb(20, 90, 80));
+    background: linear-gradient(-83deg, rgb(237, 22, 135), rgb(20, 90, 80));
+    background-image: url(./singed.webp);
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+blockquote{
+    max-width: 45%;
+    margin: auto;
+    font-size: 160%;
+    background-color: lightgray;
+    border-left: 3px  solid;
+    border-color: firebrick;
+    padding: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
