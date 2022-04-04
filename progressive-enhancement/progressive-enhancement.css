@@ -1,10 +1,4 @@
-p{
-    font-family: serif;
-    font-size: 18px;
-    color: darkgreen;
-    word-spacing: 5px;
 
-}
 a:hover{
     color: red;
     
@@ -52,4 +46,42 @@ border-color: black;
 }
 header > h1 {
     background-color: yellow;
+}
+.bad{
+    color: red;
+    text-transform: uppercase;
+}
+.good{
+    color: green;
+    text-transform: uppercase;
+    
+}
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+.first_p{
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+.second_p{
+    font-family: serif;
+    font-size: 18px;
+    color: darkgoldenrod;
+    word-spacing: 5px;
+}
+.pouce_bien::after{
+content: url(./bien.png);
+top: 15 px;
+background-repeat: no-repeat;
+position: relative;
+
+}
+.pouce_mal::after{
+content: url(./mal.png);
+background-repeat: no-repeat;
+bottom: 15px;
+}
+.cats::after{
+content: url(./chat.png);
+background-repeat: no-repeat;
+bottom: 15px;
 }
